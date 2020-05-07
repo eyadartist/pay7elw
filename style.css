@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans HK', sans-serif;
+  box-sizing: border-box;
+}
+
+#demo {
+  font-size: 50px;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.container1 {
+  background: rgb(25, 25, 102);
+  color: white;
+  padding: 10rem;
+  padding-top: 9rem;
+  padding-bottom: 8rem;
+}
+
+.logo {
+  color: white;
+}
+
+header {
+  background: rgb(25, 25, 102);
+  margin: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  position: fixed;
+  width: 94%;
+  z-index: 50;
+}
+
+.nav_links {
+  background: rgb(25, 25, 102);
+  margin-left: 24rem;
+
+}
+
+.nav_links button {
+  padding: 15px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 33px;
+  transition: 0.2s ease-in-out;
+}
+
+.nav_links button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.login_button {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border: white solid 2px;
+  border-radius: 33px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#button1 {
+  padding: 15px;
+  color: white;
+  background-color: transparent;
+  border: white solid 2px;
+  border-radius: 33px;
+  transition: 0.2s ease-in-out;
+  cursor: cell;
+}
+
+#button1:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#img1 {
+  width: 70%;
+  height: auto;
+  margin-left: 140px;
+}
+
+.he1 {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  color: rgb(25, 25, 102);
+}
+
+.right-img {
+  text-align: right;
+  margin-right: 5rem;
+  margin-top: 8rem;
+}
+
+.left-img {
+  text-align: left;
+  margin-left: 5rem;
+  margin-top: 8rem;
+}
+
+.icon {
+  width: 10rem;
+  height: auto;
+}

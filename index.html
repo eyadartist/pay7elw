@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="app.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;700;900&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+
+  <title>Pay7lew | The best E-walet Ever</title>
+
+
+</head>
+<body>
+
+
+
+  <header>
+    <h1 class="logo">Pay7elw</h1>
+    <nav>
+      <ul class="nav_links">
+        <li><a href=""><button class="nav_button">HOME</button></a></li>
+        <li><a href=""><button class="nav_button">SERVICERS</button></a></li>
+        <li><a href=""><button class="nav_button">ABOUT</button></a></li>
+        <li><a href=""><button class="nav_button">CONTACT</button></a></li>
+      </ul>
+    </nav>
+    <li><a href=""><button class="login_button">LOGIN</button></a></li>
+  </header>
+
+
+
+  <main>
+  <div class="container1">
+    <div>
+    <h1 id="demo">Good </h1>
+    <p>Welcome to Pay7lew</p>
+    <a href=""><button id="button1">GET STARTED</button></a>
+    </div>
+    <img id="img1" src="./undraw_transfer_money_rywa.svg">
+
+  </div>
+
+
+  <div class="container2">
+    <h1 class="he1">What We Provide</h1>
+
+
+
+    <div class="left-img">
+      <i class="icon" class="fas fa-wallet" style="color: #1100ff;"></i>
+      <h3>E-Wallet</h3>
+    </div>
+
+
+
+    <div class="right-img">
+      <i class="icon" class="fas fa-analytics" style="color: #1100ff;"></i>
+      <h3>Analytics</h3>
+    </div>
+
+
+
+    <div class="left-img">
+      <i class="icon" class="fas fa-wallet" style="color: #1100ff;"></i>
+      <h3>E-Wallet</h3>
+    </div>
+
+
+
+    <div class="right-img">
+      <i class="icon" class="fas fa-wallet" style="color: #1100ff;"></i>
+      <h3>E-Wallet</h3>
+    </div>
+  </div>
+  
+
+  <script>
+    let hour = new Date().getHours()
+
+if (hour >= 6 && hour <= 12) {
+  $(function() {
+    $("#demo").append("Morning");
+});
+
+} else if (hour >= 12 && hour <= 15) {
+  $(function() {
+    $("#demo").append("Afternoon");
+});
+
+}
+else if (hour >= 15 && hour <= 20) {
+  $(function() {
+    $("#demo").append("Evening");
+});
+
+} else {
+  $(function() {
+    $("#demo").append("Nigth");
+});
+
+}
+  </script>
+  </main>
+</body>
+</html>
